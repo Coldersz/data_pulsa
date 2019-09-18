@@ -1,0 +1,245 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+.banner {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #aaaaaa;
+    background: url("./images/kopi.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner h5 {
+    position: relative;
+    font-family: 'montserrat', sans-serif;
+}
+
+.banner h1 {
+    padding-bottom: 60px;
+}
+
+.overlay .cek-1 {
+    float: left;
+    position: relative;
+}
+
+.cek-1 img {
+    width: 45%;
+    padding: 0px 0px 15px 0px;
+    /* border-radius: 50%; */
+}
+
+.overlay .cek-2 {
+    float: left;
+    position: relative;
+    padding: 30px 0px 15px 0px;
+}
+
+.overlay .cek-3 {
+    float: left;
+    position: relative;
+}
+
+.cek-3 .fa-facebook-f {
+    font-size: 25px;
+    padding: 10px;
+    width: 15%;
+    margin: 10px;
+    color: white;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.cek-3 .fa-facebook-f:hover {
+    color: #4867aa;
+    border: 2px solid #4867aa;
+}
+
+.cek-3 .fa-instagram {
+    font-size: 30px;
+    padding: 7px;
+    width: 15%;
+    margin: 7px;
+    color: white;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.cek-3 .fa-instagram:hover {
+    color: #aa2246;
+    border: 2px solid #da2246;
+}
+
+.cek-3 .fa-twitter {
+    font-size: 25px;
+    padding: 10px;
+    width: 15%;
+    margin: 10px;
+    color: white;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.cek-3 .fa-twitter:hover {
+    color: #32cdfd;
+    border: 2px solid #32cdfd;
+}
+
+.about,
+.skills {
+    padding: 55px 0px 55px 0px;
+    text-align: center;
+}
+
+.about h2 {
+    padding-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+label.line {
+    display: block;
+    background-color: #56b2e6;
+    width: 65px;
+    height: 3px;
+    margin: 10px auto 30px auto;
+    /* margin-bottom: 20px; */
+    position: relative;
+}
+
+.about img {
+    width: 10%;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+
+.about p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-family: 'montserrat', sans-serif;
+    width: 60%;
+}
+
+.skills {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #aaaaaa;
+    background: url("./images/typing.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.skills .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.skills h2 {
+    padding-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.skills h5 {
+    padding-top: 50px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.edu {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+
+}
+
+.edu h2 {
+    /* padding-top: 40px; */
+    /* margin-bottom: 20px; */
+    padding-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.edu .card {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.exp {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #aaaaaa;
+    background: url("./images/leg-view.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.exp .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.exp h2 {
+    padding-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.exp h4 {
+    padding-top: 50px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.card {
+    font-family: 'montserrat', sans-serif;
+}
